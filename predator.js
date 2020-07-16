@@ -30,7 +30,7 @@
       })
     }
     
-    loadScript('https://ext-assets.streamlabs.com/users/140067/gsap-2-1-1.js').then(function () { 
+    loadScript('https://ext-assets.streamlabs.com/users/140067/gsap-2-1-1.js').then(function () {
       loadScript('https://ext-assets.streamlabs.com/users/140067/bm.js').then(function () {
         if(alertType == 'follow' || alertType == 'cheer'){
           animate();
